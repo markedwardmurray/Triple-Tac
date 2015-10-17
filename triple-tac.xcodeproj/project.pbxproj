@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3734641BD1D7AB009AE386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3734631BD1D7AB009AE386 /* AppDelegate.swift */; };
+		6A3734661BD1D7AB009AE386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3734651BD1D7AB009AE386 /* ViewController.swift */; };
+		6A3734691BD1D7AB009AE386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3734671BD1D7AB009AE386 /* Main.storyboard */; };
+		6A37346B1BD1D7AB009AE386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A37346A1BD1D7AB009AE386 /* Assets.xcassets */; };
+		6A37346E1BD1D7AB009AE386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A37346C1BD1D7AB009AE386 /* LaunchScreen.storyboard */; };
+		6A3734791BD1D7AB009AE386 /* triple_tacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3734781BD1D7AB009AE386 /* triple_tacTests.swift */; };
+		6A3734841BD1D7AB009AE386 /* triple_tacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3734831BD1D7AB009AE386 /* triple_tacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A3734751BD1D7AB009AE386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A3734581BD1D7AB009AE386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A37345F1BD1D7AB009AE386;
+			remoteInfo = "triple-tac";
+		};
+		6A3734801BD1D7AB009AE386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A3734581BD1D7AB009AE386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A37345F1BD1D7AB009AE386;
+			remoteInfo = "triple-tac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A3734601BD1D7AB009AE386 /* triple-tac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "triple-tac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3734631BD1D7AB009AE386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A3734651BD1D7AB009AE386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A3734681BD1D7AB009AE386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A37346A1BD1D7AB009AE386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A37346D1BD1D7AB009AE386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A37346F1BD1D7AB009AE386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A3734741BD1D7AB009AE386 /* triple-tacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "triple-tacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3734781BD1D7AB009AE386 /* triple_tacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triple_tacTests.swift; sourceTree = "<group>"; };
+		6A37347A1BD1D7AB009AE386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A37347F1BD1D7AB009AE386 /* triple-tacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "triple-tacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3734831BD1D7AB009AE386 /* triple_tacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triple_tacUITests.swift; sourceTree = "<group>"; };
+		6A3734851BD1D7AB009AE386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A37345D1BD1D7AB009AE386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3734711BD1D7AB009AE386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A37347C1BD1D7AB009AE386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A3734571BD1D7AB009AE386 = {
+			isa = PBXGroup;
+			children = (
+				6A3734621BD1D7AB009AE386 /* triple-tac */,
+				6A3734771BD1D7AB009AE386 /* triple-tacTests */,
+				6A3734821BD1D7AB009AE386 /* triple-tacUITests */,
+				6A3734611BD1D7AB009AE386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A3734611BD1D7AB009AE386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A3734601BD1D7AB009AE386 /* triple-tac.app */,
+				6A3734741BD1D7AB009AE386 /* triple-tacTests.xctest */,
+				6A37347F1BD1D7AB009AE386 /* triple-tacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A3734621BD1D7AB009AE386 /* triple-tac */ = {
+			isa = PBXGroup;
+			children = (
+				6A3734631BD1D7AB009AE386 /* AppDelegate.swift */,
+				6A3734651BD1D7AB009AE386 /* ViewController.swift */,
+				6A3734671BD1D7AB009AE386 /* Main.storyboard */,
+				6A37346A1BD1D7AB009AE386 /* Assets.xcassets */,
+				6A37346C1BD1D7AB009AE386 /* LaunchScreen.storyboard */,
+				6A37346F1BD1D7AB009AE386 /* Info.plist */,
+			);
+			path = "triple-tac";
+			sourceTree = "<group>";
+		};
+		6A3734771BD1D7AB009AE386 /* triple-tacTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A3734781BD1D7AB009AE386 /* triple_tacTests.swift */,
+				6A37347A1BD1D7AB009AE386 /* Info.plist */,
+			);
+			path = "triple-tacTests";
+			sourceTree = "<group>";
+		};
+		6A3734821BD1D7AB009AE386 /* triple-tacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A3734831BD1D7AB009AE386 /* triple_tacUITests.swift */,
+				6A3734851BD1D7AB009AE386 /* Info.plist */,
+			);
+			path = "triple-tacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A37345F1BD1D7AB009AE386 /* triple-tac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3734881BD1D7AB009AE386 /* Build configuration list for PBXNativeTarget "triple-tac" */;
+			buildPhases = (
+				6A37345C1BD1D7AB009AE386 /* Sources */,
+				6A37345D1BD1D7AB009AE386 /* Frameworks */,
+				6A37345E1BD1D7AB009AE386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "triple-tac";
+			productName = "triple-tac";
+			productReference = 6A3734601BD1D7AB009AE386 /* triple-tac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A3734731BD1D7AB009AE386 /* triple-tacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A37348B1BD1D7AB009AE386 /* Build configuration list for PBXNativeTarget "triple-tacTests" */;
+			buildPhases = (
+				6A3734701BD1D7AB009AE386 /* Sources */,
+				6A3734711BD1D7AB009AE386 /* Frameworks */,
+				6A3734721BD1D7AB009AE386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3734761BD1D7AB009AE386 /* PBXTargetDependency */,
+			);
+			name = "triple-tacTests";
+			productName = "triple-tacTests";
+			productReference = 6A3734741BD1D7AB009AE386 /* triple-tacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A37347E1BD1D7AB009AE386 /* triple-tacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A37348E1BD1D7AB009AE386 /* Build configuration list for PBXNativeTarget "triple-tacUITests" */;
+			buildPhases = (
+				6A37347B1BD1D7AB009AE386 /* Sources */,
+				6A37347C1BD1D7AB009AE386 /* Frameworks */,
+				6A37347D1BD1D7AB009AE386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A3734811BD1D7AB009AE386 /* PBXTargetDependency */,
+			);
+			name = "triple-tacUITests";
+			productName = "triple-tacUITests";
+			productReference = 6A37347F1BD1D7AB009AE386 /* triple-tacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A3734581BD1D7AB009AE386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mark Edward Murray";
+				TargetAttributes = {
+					6A37345F1BD1D7AB009AE386 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6A3734731BD1D7AB009AE386 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6A37345F1BD1D7AB009AE386;
+					};
+					6A37347E1BD1D7AB009AE386 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6A37345F1BD1D7AB009AE386;
+					};
+				};
+			};
+			buildConfigurationList = 6A37345B1BD1D7AB009AE386 /* Build configuration list for PBXProject "triple-tac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A3734571BD1D7AB009AE386;
+			productRefGroup = 6A3734611BD1D7AB009AE386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A37345F1BD1D7AB009AE386 /* triple-tac */,
+				6A3734731BD1D7AB009AE386 /* triple-tacTests */,
+				6A37347E1BD1D7AB009AE386 /* triple-tacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A37345E1BD1D7AB009AE386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A37346E1BD1D7AB009AE386 /* LaunchScreen.storyboard in Resources */,
+				6A37346B1BD1D7AB009AE386 /* Assets.xcassets in Resources */,
+				6A3734691BD1D7AB009AE386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3734721BD1D7AB009AE386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A37347D1BD1D7AB009AE386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A37345C1BD1D7AB009AE386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3734661BD1D7AB009AE386 /* ViewController.swift in Sources */,
+				6A3734641BD1D7AB009AE386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3734701BD1D7AB009AE386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3734791BD1D7AB009AE386 /* triple_tacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A37347B1BD1D7AB009AE386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3734841BD1D7AB009AE386 /* triple_tacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A3734761BD1D7AB009AE386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A37345F1BD1D7AB009AE386 /* triple-tac */;
+			targetProxy = 6A3734751BD1D7AB009AE386 /* PBXContainerItemProxy */;
+		};
+		6A3734811BD1D7AB009AE386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A37345F1BD1D7AB009AE386 /* triple-tac */;
+			targetProxy = 6A3734801BD1D7AB009AE386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A3734671BD1D7AB009AE386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A3734681BD1D7AB009AE386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A37346C1BD1D7AB009AE386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A37346D1BD1D7AB009AE386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A3734861BD1D7AB009AE386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A3734871BD1D7AB009AE386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A3734891BD1D7AB009AE386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "triple-tac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.triple-tac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A37348A1BD1D7AB009AE386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "triple-tac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.triple-tac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A37348C1BD1D7AB009AE386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "triple-tacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.triple-tacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triple-tac.app/triple-tac";
+			};
+			name = Debug;
+		};
+		6A37348D1BD1D7AB009AE386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "triple-tacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.triple-tacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/triple-tac.app/triple-tac";
+			};
+			name = Release;
+		};
+		6A37348F1BD1D7AB009AE386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "triple-tacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.triple-tacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "triple-tac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6A3734901BD1D7AB009AE386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "triple-tacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.edu.triple-tacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "triple-tac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A37345B1BD1D7AB009AE386 /* Build configuration list for PBXProject "triple-tac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3734861BD1D7AB009AE386 /* Debug */,
+				6A3734871BD1D7AB009AE386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3734881BD1D7AB009AE386 /* Build configuration list for PBXNativeTarget "triple-tac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3734891BD1D7AB009AE386 /* Debug */,
+				6A37348A1BD1D7AB009AE386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A37348B1BD1D7AB009AE386 /* Build configuration list for PBXNativeTarget "triple-tacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A37348C1BD1D7AB009AE386 /* Debug */,
+				6A37348D1BD1D7AB009AE386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A37348E1BD1D7AB009AE386 /* Build configuration list for PBXNativeTarget "triple-tacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A37348F1BD1D7AB009AE386 /* Debug */,
+				6A3734901BD1D7AB009AE386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A3734581BD1D7AB009AE386 /* Project object */;
+}
