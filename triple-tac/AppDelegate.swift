@@ -16,6 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let cube = Cube3()
+        print(cube)
+        
+        cube[0,0,0] = "@"
+        print(cube)
+        
+        let lrc = Coordinate.init(layer: 2, row: 2, cubie: 2)
+        
+        cube[lrc] = "$"
+        print(cube)
+
+        let allRows = cube.allRows()
+        print(allRows)
+        
+        let allColumns = cube.allColumns()
+        print(allColumns)
+        
+        let allStacks = cube.allStacks()
+        print(allStacks)
+        
         return true
     }
 
